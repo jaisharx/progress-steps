@@ -12,11 +12,23 @@
         <link rel="stylesheet" href="css/style.scss" />
         <script src="js/script.js" defer></script>
 
-        <title>Your Project Name</title>
+        <title>Progress Steps</title>
     </head>
     <body>
-        <div class="main">
-            <h1>hello, world <i class="fas fa-code"></i></h1>
+        
+        <div class="container">
+            <div class="progress-container">
+                <div class="progress" id="progress"></div>
+                <div class="circle active">1</div>
+                <div class="circle">2</div>
+                <div class="circle">3</div>
+                <div class="circle">4</div>
+            </div>
+
+            <button class="btn" id="prev" disabled>Prev</button>
+            <button class="btn" id="next">Prev</button>
+
         </div>
+
     </body>
 </html>
